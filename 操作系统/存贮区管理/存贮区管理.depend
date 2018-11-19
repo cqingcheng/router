@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541513369 source:d:\c++\操作系统\存贮区管理\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542366965 source:d:\c++\数据结构\稀疏计算器\main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+

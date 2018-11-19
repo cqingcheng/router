@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1530959325 source:d:\c++\课设\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<windows.h>
+	"lei.h"
+	"zongleihanshu.cpp"
+	"gl.h"
+	"gl.cpp"
+	"lei1.h"
+	"yingyuxi.cpp"
+	"lei2.h"
+	"shuxuexi.cpp"
+	"lei3.h"
+	"jisuanjixi.cpp"
+
+1530931782 d:\c++\课设\lei.h
+
+1531026239 d:\c++\课设\lei1.h
+
+1530965598 d:\c++\课设\lei2.h
+
+1530965598 d:\c++\课设\lei3.h
+
+1530965490 d:\c++\课设\zongleihanshu.cpp
+	<iostream>
+	"lei.h"
+
+1530881506 d:\c++\课设\guanli.h
+
+1530881506 d:\c++\课设\guanli.cpp
+
+1530951117 d:\c++\课设\yingyuxi.cpp
+	<iostream>
+	"lei1.h"
+
+1530950534 d:\c++\课设\shuxuexi.cpp
+	<iostream>
+	"lei2.h"
+
+1530952420 d:\c++\课设\jisuanjixi.cpp
+	<iostream>
+	"lei3.h"
+
+1530959325 d:\c++\课设\gl.h
+	"lei1.h"
+	"lei2.h"
+	"lei3.h"
+
+1531026308 d:\c++\课设\gl.cpp
+	<iostream>
+	"guanli.h"
+	"lei1.h"
+	"lei2.h"
+	"lei3.h"
+

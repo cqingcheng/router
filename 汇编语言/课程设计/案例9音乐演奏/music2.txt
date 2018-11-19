@@ -1,0 +1,84 @@
+DATA      SEGMENT PARA 'DATA'
+INFO2     DB 0DH,0AH,'this is a music program!$'
+MUS_FREG2 DW 330,392,330,294,330,392,330,294,330
+          DW 330,392,330,294,262,294,330,392,294
+          DW 262,262,220,196,196,220,262,294,332,262,-1
+MUS_TIME2 DW 3 DUP(50),25,25,50,25,25,100
+          DW 2 DUP(50,50,25,25),100
+          DW 3 DUP(50,25,25),100
+DATA      ENDS
+;.............................................
+CODE      SEGMENT
+          ASSUME DS:DATA,CS:CODE
+MAIN      PROC FAR
+          MOV AX,DATA
+          MOV DS,AX
+;.................................
+;.........定义一个宏..............
+SHOW      MACRO b
+          LEA DX,b
+          MOV AH,9
+          INT 21H
+          ENDM
+;.................................
+          show INFO2
+;......................
+          CALL MUSIC2
+;................................
+          MOV AH,4CH
+          INT 21H
+MAIN ENDP 
+;................................
+MUSIC2    PROC NEAR
+          PUSH DS
+          SUB AX,AX
+          PUSH AX
+          LEA SI,MUS_FREG2
+          LEA BP,DS:MUS_TIME2
+FREG2:    MOV DI,[SI]
+          CMP DI,-1
+          JE END_MUS2
+          MOV DX,DS:[BP]
+          MOV BX,1400
+          CALL GENSOUND
+          ADD SI,2
+          ADD BP,2
+          JMP FREG2
+END_MUS2:
+          RET
+MUSIC2    ENDP
+GENSOUND PROC NEAR
+          PUSH AX
+          PUSH BX
+          PUSH CX
+          PUSH DX
+          PUSH DI
+          MOV AL,0B6H
+          OUT 43H,AL
+          MOV DX,12H
+          MOV AX,533H*896
+          DIV DI
+          OUT 42H,AL
+          MOV AL,AH
+          OUT 42H,AL
+          IN AL,61H
+          MOV AH,AL
+          OR AL,3
+          OUT 61H,AL
+
+WAIT1:    MOV CX,8FF0H
+DELAY1:   LOOP DELAY1
+          DEC BX
+          JNZ WAIT1
+          MOV AL,AH
+          OUT 61H,AL
+          POP DI
+          POP DX
+          POP CX
+          POP BX
+          POP AX
+          RET
+GENSOUND ENDP
+CODE      ENDS
+          END MAIN
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="lei1.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2744" topLine="37" />
+		</Cursor>
+		<Folding>
+			<Collapse line="21" />
+			<Collapse line="50" />
+		</Folding>
+	</File>
+	<File name="gl.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="362" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="lei3.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2522" topLine="36" />
+		</Cursor>
+		<Folding>
+			<Collapse line="20" />
+			<Collapse line="45" />
+		</Folding>
+	</File>
+	<File name="lei2.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2869" topLine="40" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="20" />
+		</Folding>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2647" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="lei.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="shuxuexi.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="120" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="yingyuxi.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="299" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="zongleihanshu.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1783" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="42" />
+			<Collapse line="46" />
+		</Folding>
+	</File>
+	<File name="gl.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3060" topLine="6" />
+		</Cursor>
+		<Folding>
+			<Collapse line="8" />
+			<Collapse line="27" />
+		</Folding>
+	</File>
+	<File name="jisuanjixi.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="157" topLine="0" />
+		</Cursor>
+	</File>
+	<Target name="Debug" top="main.cpp">
+		<File name="main.cpp" />
+		<File name="zongleihanshu.cpp" />
+		<File name="lei.h" />
+		<File name="yingyuxi.cpp" />
+		<File name="lei1.h" />
+		<File name="shuxuexi.cpp" />
+		<File name="lei2.h" />
+		<File name="jisuanjixi.cpp" />
+		<File name="lei3.h" />
+		<File name="gl.cpp" />
+		<File name="gl.h" />
+	</Target>
+</CodeBlocks_layout_file>
